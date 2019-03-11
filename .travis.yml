@@ -9,6 +9,6 @@ before_script:
         - php composer.phar install --dev --prefer-dist --no-interaction
 
 
-script: - bin/phpunit --coverage-text
-        - bin/phpunit --group integration
-        - bin/security-checker security-check composer.lock
+script: - phpunit --coverage-text
+        - phpunit --group integration
+        - security-checker security-check composer.lock
