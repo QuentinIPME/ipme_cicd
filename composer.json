@@ -2,7 +2,7 @@
   "require": {
     "moontoast/math": "1.1.2",
     "symfony/console": "~2.7.0",
-    "symfony/dependency-injection": "2.0.15"
+    "symfony/dependency-injection": "2.0.17"
   },
   "autoload": {
     "psr-4": {
