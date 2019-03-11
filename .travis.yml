@@ -11,8 +11,8 @@ before_script:
         - composer install
 
 
-script: ./bin/phpunit
-        ./bin/console security:check
+script: .phpunit
+        .console security:check
 
 
 
