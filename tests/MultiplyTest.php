@@ -36,5 +36,9 @@ class MultiplyTest extends TestCase
 	$this->assertSame(49, $this->multiply->multiplyBy7(7));
     }
 
+    public function testE()
+    {
+	$this->assertSame(36, $this->multiply->multiplyBy6(6));
+    }		
 
 }
