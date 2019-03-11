@@ -18,4 +18,5 @@ class Multiply
 		$number = new BigNumber($number);
 		$number->multiply(7);
 		return intval($number->getValue());
+	}
 }
